@@ -61,7 +61,7 @@ while time.time() - start_time < 10:  # Observe for 10 seconds
 dominant_emotion = max(emotion_count, key=emotion_count.get)
 print(f"Dominant emotion detected: {dominant_emotion}")
 
-# Define playlist URLs 
+# Define playlist URL(or API)
 playlist_urls = {
     'happy': "https://open.spotify.com/search/happy/playlists",
     'angry': "https://open.spotify.com/search/angry/playlists",
